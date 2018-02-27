@@ -21,3 +21,19 @@ console.log("string:", string);
 var dna = "gcat";
 var rna = dna.replace('t', 'u');
 console.log(rna);
+
+// challenge 4
+var animal = "alligator";
+var animal = "Alligator";
+var animal = "bird";
+var animal = "dog";
+var animal = "alliGATor";
+var animal = "DOG";
+
+if (animal.toLowerCase() === "goat") {
+    console.log("wide");
+} else if (animal.toLowerCase() === "alligator") {
+    console.log("small");
+} else if (animal.toUpperCase() === "DOG") {
+    console.log("yah");
+}
