@@ -33,7 +33,16 @@ var animal = "DOG";
 if (animal.toLowerCase() === "goat") {
     console.log("wide");
 } else if (animal.toLowerCase() === "alligator") {
-    console.log("small");
-} else if (animal.toUpperCase() === "DOG") {
-    console.log("yah");
+} else {
+    console.log("wide");
 }
+    // console.log("small");
+// } else if (animal.toUpperCase() === "DOG") {
+//     console.log("yah");
+// }
+
+//challenge 5
+var yarn = "the better string";
+var domString = "<h4>" + yarn + "</h4>";
+var myDiv = document.getElementById("yarn-holder");
+myDiv.innerHTML = domString;
