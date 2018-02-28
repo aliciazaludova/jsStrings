@@ -46,3 +46,29 @@ var yarn = "the better string";
 var domString = "<h4>" + yarn + "</h4>";
 var myDiv = document.getElementById("yarn-holder");
 myDiv.innerHTML = domString;
+
+//challenge 6
+var str = "IBMWLOVEbmcatsbmw"; 
+var cats = str.replace(/[BMWbmw]/g, '');
+console.log("cats", cats);
+// build the <h1> now
+var catsStr = "<h1>" + cats + "</h1>";
+var locatePlaceInDom = document.getElementById("kitty-love");
+locatePlaceInDom.innerHTML = catsStr;
+    
+//ATTEMPTS
+// display ILOVEcats on the screen
+//var lowerCaseStr = str.toLowerCase();
+//console.log(lowerCaseStr);
+// var catLove = str.ignoreCase.slice("b","m", "b");
+// console.log(catLove);
+// var myNewDiv = document.getElementById("kitty-love");
+// myNewDiv.innerHTML = catLove;
+
+
+//practice
+var bestInstructor = "Lauren Rouse";
+var lamren = bestInstructor.replace("u", m);
+console.log(lamren);
+var lamrenromse = bestInstructor.replace(/u/g, m);
+console.log(lamrenrouse);
